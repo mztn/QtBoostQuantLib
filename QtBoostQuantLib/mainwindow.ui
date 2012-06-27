@@ -1,0 +1,1499 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1082</width>
+    <height>840</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>470</y>
+      <width>113</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dial">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>430</y>
+      <width>50</width>
+      <height>64</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDateEdit" name="dateEdit">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>500</y>
+      <width>110</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="calendarPopup">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>550</y>
+      <width>211</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>590</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Calculate!</string>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="toolButton">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>640</y>
+      <width>111</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>...</string>
+    </property>
+   </widget>
+   <widget class="QProgressBar" name="progressBar">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>720</y>
+      <width>118</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="value">
+     <number>24</number>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>510</y>
+      <width>69</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>610</y>
+      <width>50</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>640</y>
+      <width>50</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>530</y>
+      <width>471</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <row>
+     <property name="text">
+      <string>新しい行</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>新しい行</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>新しい行</string>
+     </property>
+    </row>
+    <column>
+     <property name="text">
+      <string>新しい列</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>新しい列</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>新しい列</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>新しい列</string>
+     </property>
+    </column>
+    <item row="0" column="0">
+     <property name="text">
+      <string>11</string>
+     </property>
+    </item>
+    <item row="0" column="1">
+     <property name="text">
+      <string>12</string>
+     </property>
+    </item>
+    <item row="0" column="2">
+     <property name="text">
+      <string>13</string>
+     </property>
+    </item>
+    <item row="0" column="3">
+     <property name="text">
+      <string>14</string>
+     </property>
+    </item>
+    <item row="1" column="0">
+     <property name="text">
+      <string>21</string>
+     </property>
+    </item>
+    <item row="1" column="1">
+     <property name="text">
+      <string>22</string>
+     </property>
+    </item>
+    <item row="1" column="2">
+     <property name="text">
+      <string>23</string>
+     </property>
+    </item>
+    <item row="1" column="3">
+     <property name="text">
+      <string>24</string>
+     </property>
+    </item>
+    <item row="2" column="0">
+     <property name="text">
+      <string>31</string>
+     </property>
+    </item>
+    <item row="2" column="1">
+     <property name="text">
+      <string>32</string>
+     </property>
+    </item>
+    <item row="2" column="2">
+     <property name="text">
+      <string>33</string>
+     </property>
+    </item>
+    <item row="2" column="3">
+     <property name="text">
+      <string>34</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QListWidget" name="listWidget">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>670</y>
+      <width>121</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>新しいアイテム</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>新しいアイテム</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>新しいアイテム</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>新しいアイテム</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>新しいアイテム</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>新しいアイテム</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>新しいアイテム</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>新しいアイテム</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>新しいアイテム</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>新しいアイテム</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QTreeWidget" name="treeWidget">
+    <property name="geometry">
+     <rect>
+      <x>620</x>
+      <y>670</y>
+      <width>301</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <column>
+     <property name="text">
+      <string>1</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>新しい列</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>新しい列</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>新しい列</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>新しい列</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>新しい列</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>新しい列</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>新しい列</string>
+     </property>
+    </column>
+    <item>
+     <property name="text">
+      <string>新しいアイテム</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>新しいアイテム</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>新しいアイテム</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>新しいアイテム</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>新しいアイテム</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>新しいアイテム</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>新しいアイテム</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>新しいアイテム</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>新しいアイテム</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>1061</width>
+      <height>431</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>1</number>
+    </property>
+    <widget class="QWidget" name="tab">
+     <attribute name="title">
+      <string>Swap Valuation</string>
+     </attribute>
+     <widget class="QTableWidget" name="tableWidget_RatesDeposites">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>111</width>
+        <height>211</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>9</pointsize>
+       </font>
+      </property>
+      <property name="autoScrollMargin">
+       <number>16</number>
+      </property>
+      <attribute name="verticalHeaderDefaultSectionSize">
+       <number>20</number>
+      </attribute>
+      <attribute name="verticalHeaderMinimumSectionSize">
+       <number>18</number>
+      </attribute>
+      <row>
+       <property name="text">
+        <string>1w</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>1m</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>3m</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>6m</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>9m</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>1y</string>
+       </property>
+      </row>
+      <column>
+       <property name="text">
+        <string>Deposits</string>
+       </property>
+       <property name="textAlignment">
+        <set>AlignHCenter|AlignVCenter|AlignCenter</set>
+       </property>
+      </column>
+      <item row="0" column="0">
+       <property name="text">
+        <string>3.8200</string>
+       </property>
+       <property name="textAlignment">
+        <set>AlignHCenter|AlignVCenter|AlignCenter</set>
+       </property>
+      </item>
+      <item row="1" column="0">
+       <property name="text">
+        <string>3.7200</string>
+       </property>
+       <property name="textAlignment">
+        <set>AlignHCenter|AlignVCenter|AlignCenter</set>
+       </property>
+      </item>
+      <item row="2" column="0">
+       <property name="text">
+        <string>3.6300</string>
+       </property>
+       <property name="textAlignment">
+        <set>AlignHCenter|AlignVCenter|AlignCenter</set>
+       </property>
+      </item>
+      <item row="3" column="0">
+       <property name="text">
+        <string>3.5300</string>
+       </property>
+       <property name="textAlignment">
+        <set>AlignHCenter|AlignVCenter|AlignCenter</set>
+       </property>
+      </item>
+      <item row="4" column="0">
+       <property name="text">
+        <string>3.4800</string>
+       </property>
+       <property name="textAlignment">
+        <set>AlignHCenter|AlignVCenter|AlignCenter</set>
+       </property>
+      </item>
+      <item row="5" column="0">
+       <property name="text">
+        <string>3.4500</string>
+       </property>
+       <property name="textAlignment">
+        <set>AlignHCenter|AlignVCenter|AlignCenter</set>
+       </property>
+      </item>
+     </widget>
+     <widget class="QTableWidget" name="tableWidget_RatesFRAs">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>10</y>
+        <width>121</width>
+        <height>211</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>9</pointsize>
+       </font>
+      </property>
+      <property name="autoScrollMargin">
+       <number>16</number>
+      </property>
+      <attribute name="verticalHeaderDefaultSectionSize">
+       <number>20</number>
+      </attribute>
+      <attribute name="verticalHeaderMinimumSectionSize">
+       <number>18</number>
+      </attribute>
+      <row>
+       <property name="text">
+        <string>3x6</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>6x9</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>6x12</string>
+       </property>
+      </row>
+      <column>
+       <property name="text">
+        <string>FRAs</string>
+       </property>
+      </column>
+      <item row="0" column="0">
+       <property name="text">
+        <string>3.7125</string>
+       </property>
+       <property name="textAlignment">
+        <set>AlignHCenter|AlignVCenter|AlignCenter</set>
+       </property>
+      </item>
+      <item row="1" column="0">
+       <property name="text">
+        <string>3.7125</string>
+       </property>
+       <property name="textAlignment">
+        <set>AlignHCenter|AlignVCenter|AlignCenter</set>
+       </property>
+      </item>
+      <item row="2" column="0">
+       <property name="text">
+        <string>3.7125</string>
+       </property>
+       <property name="textAlignment">
+        <set>AlignHCenter|AlignVCenter|AlignCenter</set>
+       </property>
+      </item>
+     </widget>
+     <widget class="QTableWidget" name="tableWidget_RatesFutures">
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>10</y>
+        <width>121</width>
+        <height>211</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>9</pointsize>
+       </font>
+      </property>
+      <property name="autoScrollMargin">
+       <number>16</number>
+      </property>
+      <attribute name="verticalHeaderDefaultSectionSize">
+       <number>20</number>
+      </attribute>
+      <attribute name="verticalHeaderMinimumSectionSize">
+       <number>18</number>
+      </attribute>
+      <row>
+       <property name="text">
+        <string>1y</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>2y</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>3y</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>4y</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>5y</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>6y</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>7y</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>8y</string>
+       </property>
+      </row>
+      <column>
+       <property name="text">
+        <string>Futures</string>
+       </property>
+      </column>
+      <item row="0" column="0">
+       <property name="text">
+        <string>96.2875</string>
+       </property>
+       <property name="textAlignment">
+        <set>AlignHCenter|AlignVCenter|AlignCenter</set>
+       </property>
+      </item>
+      <item row="1" column="0">
+       <property name="text">
+        <string>96.7875</string>
+       </property>
+       <property name="textAlignment">
+        <set>AlignHCenter|AlignVCenter|AlignCenter</set>
+       </property>
+      </item>
+      <item row="2" column="0">
+       <property name="text">
+        <string>96.9875</string>
+       </property>
+       <property name="textAlignment">
+        <set>AlignHCenter|AlignVCenter|AlignCenter</set>
+       </property>
+      </item>
+      <item row="3" column="0">
+       <property name="text">
+        <string>96.6875</string>
+       </property>
+       <property name="textAlignment">
+        <set>AlignHCenter|AlignVCenter|AlignCenter</set>
+       </property>
+      </item>
+      <item row="4" column="0">
+       <property name="text">
+        <string>96.4875</string>
+       </property>
+       <property name="textAlignment">
+        <set>AlignHCenter|AlignVCenter|AlignCenter</set>
+       </property>
+      </item>
+      <item row="5" column="0">
+       <property name="text">
+        <string>96.3875</string>
+       </property>
+       <property name="textAlignment">
+        <set>AlignHCenter|AlignVCenter|AlignCenter</set>
+       </property>
+      </item>
+      <item row="6" column="0">
+       <property name="text">
+        <string>96.2875</string>
+       </property>
+       <property name="textAlignment">
+        <set>AlignHCenter|AlignVCenter|AlignCenter</set>
+       </property>
+      </item>
+      <item row="7" column="0">
+       <property name="text">
+        <string>96.0875</string>
+       </property>
+       <property name="textAlignment">
+        <set>AlignHCenter|AlignVCenter|AlignCenter</set>
+       </property>
+      </item>
+     </widget>
+     <widget class="QTableWidget" name="tableWidget_RatesSwaps">
+      <property name="geometry">
+       <rect>
+        <x>390</x>
+        <y>10</y>
+        <width>111</width>
+        <height>211</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>9</pointsize>
+       </font>
+      </property>
+      <property name="autoScrollMargin">
+       <number>16</number>
+      </property>
+      <attribute name="verticalHeaderDefaultSectionSize">
+       <number>20</number>
+      </attribute>
+      <attribute name="verticalHeaderMinimumSectionSize">
+       <number>18</number>
+      </attribute>
+      <row>
+       <property name="text">
+        <string>2y</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>3y</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>5y</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>7y</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>10y</string>
+       </property>
+      </row>
+      <column>
+       <property name="text">
+        <string>Swaps</string>
+       </property>
+      </column>
+      <item row="0" column="0">
+       <property name="text">
+        <string>3.7125</string>
+       </property>
+       <property name="textAlignment">
+        <set>AlignHCenter|AlignVCenter|AlignCenter</set>
+       </property>
+      </item>
+      <item row="1" column="0">
+       <property name="text">
+        <string>3.9800</string>
+       </property>
+       <property name="textAlignment">
+        <set>AlignHCenter|AlignVCenter|AlignCenter</set>
+       </property>
+      </item>
+      <item row="2" column="0">
+       <property name="text">
+        <string>4.4300</string>
+       </property>
+       <property name="textAlignment">
+        <set>AlignHCenter|AlignVCenter|AlignCenter</set>
+       </property>
+      </item>
+      <item row="3" column="0">
+       <property name="text">
+        <string>5.1650</string>
+       </property>
+       <property name="textAlignment">
+        <set>AlignHCenter|AlignVCenter|AlignCenter</set>
+       </property>
+      </item>
+      <item row="4" column="0">
+       <property name="text">
+        <string>5.5175</string>
+       </property>
+       <property name="textAlignment">
+        <set>AlignHCenter|AlignVCenter|AlignCenter</set>
+       </property>
+      </item>
+     </widget>
+     <widget class="QWidget" name="layoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>510</x>
+        <y>10</y>
+        <width>301</width>
+        <height>424</height>
+       </rect>
+      </property>
+      <layout class="QFormLayout" name="formLayout">
+       <property name="fieldGrowthPolicy">
+        <enum>QFormLayout::AllNonFixedFieldsGrow</enum>
+       </property>
+       <item row="0" column="0">
+        <widget class="QLabel" name="label_SettlementDate">
+         <property name="text">
+          <string>Settlement Date</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QDateEdit" name="dateEdit_settlementDate">
+         <property name="locale">
+          <locale language="English" country="UnitedStates"/>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+         <property name="dateTime">
+          <datetime>
+           <hour>0</hour>
+           <minute>0</minute>
+           <second>0</second>
+           <year>2004</year>
+           <month>9</month>
+           <day>22</day>
+          </datetime>
+         </property>
+         <property name="maximumDate">
+          <date>
+           <year>2099</year>
+           <month>12</month>
+           <day>31</day>
+          </date>
+         </property>
+         <property name="minimumDate">
+          <date>
+           <year>1900</year>
+           <month>1</month>
+           <day>1</day>
+          </date>
+         </property>
+         <property name="displayFormat">
+          <string>yyyy/MM/dd</string>
+         </property>
+         <property name="calendarPopup">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="label_Nominal">
+         <property name="text">
+          <string>Nominal</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QDoubleSpinBox" name="doubleSpinBox_Notional">
+         <property name="locale">
+          <locale language="English" country="UnitedStates"/>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+         </property>
+         <property name="accelerated">
+          <bool>false</bool>
+         </property>
+         <property name="decimals">
+          <number>0</number>
+         </property>
+         <property name="minimum">
+          <double>1.000000000000000</double>
+         </property>
+         <property name="maximum">
+          <double>999999999.000000000000000</double>
+         </property>
+         <property name="value">
+          <double>1000000.000000000000000</double>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QLabel" name="label_LenghtInYears">
+         <property name="text">
+          <string>Length in Years</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QDoubleSpinBox" name="doubleSpinBox_lenghtInYears">
+         <property name="alignment">
+          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+         </property>
+         <property name="decimals">
+          <number>2</number>
+         </property>
+         <property name="minimum">
+          <double>0.010000000000000</double>
+         </property>
+         <property name="maximum">
+          <double>100.000000000000000</double>
+         </property>
+         <property name="singleStep">
+          <double>0.010000000000000</double>
+         </property>
+         <property name="value">
+          <double>5.000000000000000</double>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0">
+        <widget class="QLabel" name="label_SwapTermStructureTypeLabel">
+         <property name="text">
+          <string>Term Structure Type</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="1">
+        <widget class="QComboBox" name="comboBox_TermStructureType">
+         <item>
+          <property name="text">
+           <string>Depos, Swaps</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Depos, Futures, Swaps</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Depos, FRAs, Swaps</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="4" column="0">
+        <widget class="QLabel" name="label_SwapType">
+         <property name="text">
+          <string>Swap Type</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="1">
+        <widget class="QComboBox" name="comboBox_swapType">
+         <item>
+          <property name="text">
+           <string>VanillaSwap::Payer</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>VanillaSwap::Receiver</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="5" column="0">
+        <widget class="QLabel" name="label_FixedLeg">
+         <property name="font">
+          <font>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+           <strikeout>false</strikeout>
+          </font>
+         </property>
+         <property name="text">
+          <string>Fixed Leg</string>
+         </property>
+         <property name="textFormat">
+          <enum>Qt::PlainText</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="0">
+        <widget class="QLabel" name="label_FixedLegFrequency">
+         <property name="text">
+          <string>  Fixed Leg Frequency</string>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="1">
+        <widget class="QComboBox" name="comboBox_FixedLegFrequency">
+         <item>
+          <property name="text">
+           <string>Annual</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Semiannual</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Quarterly</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="7" column="0">
+        <widget class="QLabel" name="label_FixedLegConvention">
+         <property name="text">
+          <string>  Fixed Leg Convention</string>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="1">
+        <widget class="QComboBox" name="comboBox_fixedLegConvention">
+         <item>
+          <property name="text">
+           <string>Unadjusted</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="8" column="0">
+        <widget class="QLabel" name="label_FloatingLegConvention">
+         <property name="text">
+          <string>  Floating Leg Convention</string>
+         </property>
+        </widget>
+       </item>
+       <item row="8" column="1">
+        <widget class="QComboBox" name="comboBox_floatingLegConvention">
+         <item>
+          <property name="text">
+           <string>ModifiedFollowing</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="9" column="0">
+        <widget class="QLabel" name="label_FixedLegDayCounter">
+         <property name="text">
+          <string>  Fixed Leg Day Counter</string>
+         </property>
+        </widget>
+       </item>
+       <item row="9" column="1">
+        <widget class="QComboBox" name="comboBox_fixedLegDayCounter">
+         <item>
+          <property name="text">
+           <string>Thirty360::European</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="10" column="0">
+        <widget class="QLabel" name="label_FixingRate">
+         <property name="text">
+          <string>  Fixed Rate (%)</string>
+         </property>
+        </widget>
+       </item>
+       <item row="10" column="1">
+        <widget class="QDoubleSpinBox" name="doubleSpinBox_fixedRate">
+         <property name="alignment">
+          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+         </property>
+         <property name="accelerated">
+          <bool>false</bool>
+         </property>
+         <property name="decimals">
+          <number>3</number>
+         </property>
+         <property name="minimum">
+          <double>0.001000000000000</double>
+         </property>
+         <property name="maximum">
+          <double>100.000000000000000</double>
+         </property>
+         <property name="singleStep">
+          <double>0.001000000000000</double>
+         </property>
+         <property name="value">
+          <double>4.000000000000000</double>
+         </property>
+        </widget>
+       </item>
+       <item row="11" column="0">
+        <widget class="QLabel" name="label_FloatingLeg">
+         <property name="font">
+          <font>
+           <weight>50</weight>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>Floating Leg</string>
+         </property>
+        </widget>
+       </item>
+       <item row="12" column="0">
+        <widget class="QLabel" name="label_FloatingLegDayCounter">
+         <property name="text">
+          <string>  Floating Leg Day Counter</string>
+         </property>
+        </widget>
+       </item>
+       <item row="12" column="1">
+        <widget class="QComboBox" name="comboBox_floatingLegDayCounter">
+         <item>
+          <property name="text">
+           <string>Actual360</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="13" column="0">
+        <widget class="QLabel" name="label_FloatingLegFrequency">
+         <property name="text">
+          <string>  Floating Leg Frequency</string>
+         </property>
+        </widget>
+       </item>
+       <item row="13" column="1">
+        <widget class="QComboBox" name="comboBox_FloatingLegFrequency">
+         <item>
+          <property name="text">
+           <string>Semiannual</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Annual</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Quarterly</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="14" column="0">
+        <widget class="QLabel" name="label_Spread">
+         <property name="text">
+          <string>  Spread (%)</string>
+         </property>
+        </widget>
+       </item>
+       <item row="14" column="1">
+        <widget class="QDoubleSpinBox" name="doubleSpinBox_spread">
+         <property name="alignment">
+          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+         </property>
+         <property name="decimals">
+          <number>3</number>
+         </property>
+         <property name="maximum">
+          <double>100.000000000000000</double>
+         </property>
+         <property name="singleStep">
+          <double>0.001000000000000</double>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QPushButton" name="pushButtonCalcSwap">
+      <property name="geometry">
+       <rect>
+        <x>820</x>
+        <y>10</y>
+        <width>221</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Evaluate Swap</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="layoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>820</x>
+        <y>40</y>
+        <width>218</width>
+        <height>74</height>
+       </rect>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_SwapResults">
+       <item row="0" column="0">
+        <widget class="QLabel" name="label_SwapNPV">
+         <property name="text">
+          <string>Swap NPV</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="label_FairRate">
+         <property name="text">
+          <string>Fair Rate (%)</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0" colspan="2">
+        <widget class="QLabel" name="label_FairSpread">
+         <property name="text">
+          <string>Fair Spread (%)</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="2">
+        <widget class="QLineEdit" name="lineEdit_SwapFairSpread">
+         <property name="acceptDrops">
+          <bool>false</bool>
+         </property>
+         <property name="text">
+          <string>0.0</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+         </property>
+         <property name="dragEnabled">
+          <bool>false</bool>
+         </property>
+         <property name="readOnly">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="2">
+        <widget class="QLineEdit" name="lineEdit_SwapFairRate">
+         <property name="acceptDrops">
+          <bool>false</bool>
+         </property>
+         <property name="text">
+          <string>0.0</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+         </property>
+         <property name="dragEnabled">
+          <bool>false</bool>
+         </property>
+         <property name="readOnly">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="2">
+        <widget class="QLineEdit" name="lineEdit_SwapNPV">
+         <property name="acceptDrops">
+          <bool>false</bool>
+         </property>
+         <property name="text">
+          <string>0.0</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+         </property>
+         <property name="dragEnabled">
+          <bool>false</bool>
+         </property>
+         <property name="readOnly">
+          <bool>true</bool>
+         </property>
+         <property name="placeholderText">
+          <string/>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <zorder>layoutWidget</zorder>
+     <zorder>tableWidget_RatesDeposites</zorder>
+     <zorder>tableWidget_RatesFRAs</zorder>
+     <zorder>tableWidget_RatesFutures</zorder>
+     <zorder>tableWidget_RatesSwaps</zorder>
+     <zorder>layoutWidget</zorder>
+     <zorder>pushButtonCalcSwap</zorder>
+    </widget>
+    <widget class="QWidget" name="tab_2">
+     <attribute name="title">
+      <string>Interest Term Structure Calibration</string>
+     </attribute>
+    </widget>
+   </widget>
+   <widget class="QTableView" name="tableView">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>570</y>
+      <width>256</width>
+      <height>192</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QCalendarWidget" name="calendarWidget">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>610</y>
+      <width>261</width>
+      <height>161</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>470</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>510</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_2">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>460</y>
+      <width>113</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>460</y>
+      <width>104</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>860</x>
+      <y>440</y>
+      <width>160</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_2"/>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1082</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionExit"/>
+   </widget>
+   <widget class="QMenu" name="menuEdit">
+    <property name="title">
+     <string>Edit</string>
+    </property>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuEdit"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionExit">
+   <property name="text">
+    <string>Exit (_E)</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>lineEdit</sender>
+   <signal>returnPressed()</signal>
+   <receiver>pushButton_2</receiver>
+   <slot>animateClick()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>122</x>
+     <y>115</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>170</x>
+     <y>122</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>223</x>
+     <y>112</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>261</x>
+     <y>107</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonCalcSwap</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>showSwapNPV()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>958</x>
+     <y>460</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>984</x>
+     <y>402</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <designerdata>
+  <property name="gridDeltaX">
+   <number>10</number>
+  </property>
+  <property name="gridDeltaY">
+   <number>10</number>
+  </property>
+  <property name="gridSnapX">
+   <bool>true</bool>
+  </property>
+  <property name="gridSnapY">
+   <bool>true</bool>
+  </property>
+  <property name="gridVisible">
+   <bool>true</bool>
+  </property>
+ </designerdata>
+ <slots>
+  <slot>showSwapNPV()</slot>
+ </slots>
+</ui>
